@@ -1,6 +1,9 @@
 'use strict';
 
-var React = require('react-native');
+// fix RN 29 problem
+// var React = require('react-native');
+import React from 'react'
+
 var {
   Animated,
   PanResponder,
