@@ -3,13 +3,12 @@
 // fix RN 29 problem
 // var React = require('react-native');
 import React from 'react'
-
-var {
+import {
   Animated,
   PanResponder,
   StyleSheet,
   View,
-} = React;
+} from 'react-native'
 
 function generateRadialPositions(count, radius, spread_angle, start_angle) {
 	var span = spread_angle < 360 ? 1 : 0;
